@@ -150,6 +150,7 @@ STORAGES = {
 # React frontend CORS settings
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',
+    "https://employeehub-frontend-sndc.onrender.com",
 ]
 
 frontend_url = os.environ.get('FRONTEND_URL', '').strip()
